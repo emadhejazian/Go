@@ -51,3 +51,7 @@ func main() {
 	lst.Push(23)
 	fmt.Println("list:", lst.AllElements())
 }
+
+// $ go run generics.go
+// index of zoo: 2
+// list: [10 13 23]
